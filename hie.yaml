@@ -1,0 +1,10 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "hutton-tic-tac-toe:lib"
+
+    - path: "./app/Main.hs"
+      component: "hutton-tic-tac-toe:exe:hutton-tic-tac-toe-exe"
+
+    - path: "./test"
+      component: "hutton-tic-tac-toe:test:hutton-tic-tac-toe-test"
